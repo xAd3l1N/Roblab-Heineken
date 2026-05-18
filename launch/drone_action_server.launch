@@ -1,0 +1,6 @@
+<launch>
+    <node name="drone_action_server_node"
+          pkg="actions_quiz_pkg"
+          type="drone_action_server.py"
+          output="screen"/>
+</launch>
