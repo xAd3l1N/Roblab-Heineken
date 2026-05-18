@@ -20,7 +20,7 @@ class DroneServer:
         )
 
         self.server.start()
-        rospy.loginfo("Drone Action Server started")
+        rospy.loginfo("Serverul Heineken a inceput")
 
     def execute_cb(self, goal):
 
