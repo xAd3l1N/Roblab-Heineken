@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="test1_pkg" type="evitare_obstacol.py" name="topics_quiz_node" output="screen">
+    </node>
+</launch>
+
