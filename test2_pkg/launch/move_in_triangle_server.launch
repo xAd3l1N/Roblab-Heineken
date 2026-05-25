@@ -1,0 +1,4 @@
+<launch>
+    <!-- Start the MoveInTriangle service server -->
+    <node pkg="test2_pkg" type="move_in_triangle_service_server.py" name="move_in_triangle_server" output="screen" />
+</launch>
